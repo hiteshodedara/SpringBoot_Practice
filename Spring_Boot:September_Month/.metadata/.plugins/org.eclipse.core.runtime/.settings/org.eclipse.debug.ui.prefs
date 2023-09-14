@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
+org.eclipse.debug.ui.consoleBackground=46,52,54
+org.eclipse.debug.ui.errorColor=204,223,50
+org.eclipse.debug.ui.inColor=211,215,207
+org.eclipse.debug.ui.outColor=211,215,207
+preferredTargets=default\:default|

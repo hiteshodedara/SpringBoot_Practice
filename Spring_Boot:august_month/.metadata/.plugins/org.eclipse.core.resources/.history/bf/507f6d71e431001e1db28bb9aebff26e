@@ -1,0 +1,21 @@
+package Paracticeprogs;
+
+import java.util.Scanner;
+
+public class multitableprinter {
+
+	public static void main(String[] args) {
+		
+		Scanner scan =new Scanner(System.in);
+		
+		System.out.println("Which Multiplition Table you Want to Print= ");
+		int count=scan.nextInt();
+		
+		for(int i =0;i<count;i++) {
+			System.out.println(i);
+		}
+		
+		scan.close();
+	}
+
+}

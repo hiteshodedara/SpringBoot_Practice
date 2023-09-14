@@ -1,0 +1,35 @@
+package Paracticeprogs;
+
+import java.util.Scanner;
+
+public class swaptwovariable {
+
+	public static void main(String[] args) {
+		Scanner scan =new Scanner(System.in);
+		
+		System.out.print("Enter First values= ");
+		int val1=scan.nextInt();
+		System.out.print("Enter Second values= ");
+		int val2=scan.nextInt();
+		
+		
+		System.out.print("Before Swaping..");
+		System.out.print("First value are = "+val1+"\nSecond Value Are = "+val2);
+		
+		int val3=0;
+		
+		val3=val1;
+		val1=val2;
+		val2=val3;
+		
+		System.out.print("After Swaping..");
+		System.out.print("First value are = "+val1+"\nSecond Value Are = "+val2);
+		
+		
+		
+		
+		scan.close();
+
+	}
+
+}

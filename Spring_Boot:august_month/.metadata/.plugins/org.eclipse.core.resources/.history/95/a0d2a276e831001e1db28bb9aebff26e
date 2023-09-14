@@ -1,0 +1,18 @@
+package Paracticeprogs;
+
+import java.util.Scanner;
+
+public class expressionout {
+	public static void main(String []e) {
+		Scanner scan=new Scanner(System.in);
+		
+		System.out.println("Enter Expression= ");
+		int expre=scan.nextInt();
+		
+		System.out.println("Answer= "+expre);
+		
+		
+		scan.close();
+		
+	}
+}

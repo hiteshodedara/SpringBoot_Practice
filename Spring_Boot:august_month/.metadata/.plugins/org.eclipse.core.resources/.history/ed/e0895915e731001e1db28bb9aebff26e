@@ -1,0 +1,16 @@
+package Paracticeprogs;
+
+public class javanamepiramid {
+	public static void main(String[]a) {
+		String name=("java");
+		int count=26;
+		
+		System.out.println(name.charAt(2));
+		
+//		for(int i=0;i<4;i++) {
+//			for(int j=0;j<26;j++) {
+//				
+//			}
+//		}
+	}
+}

@@ -1,0 +1,27 @@
+package Paracticeprogs;
+
+import java.util.Scanner;
+
+public class averageofnumber {
+
+	public static void main(String[] args) {
+		int count = 0;
+
+		Scanner scan =new Scanner(System.in);
+		
+		System.out.println("How Many Subject Are There= ");
+		int subcount=scan.nextInt();
+		
+		for(int i=0;i<subcount;i++) {
+			System.out.println("Enter Subject "+(i+1)+"Marks= ");
+			String rname=("hi"+i);
+			rname=scan.nextLine();
+			count+=Integer.parseInt(rname);
+			
+		}
+		System.out.println("How Many Subject Are There= "+count);
+
+		scan.close();
+	}
+
+}

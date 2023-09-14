@@ -1,0 +1,23 @@
+package Paracticeprogs;
+
+public class binnarysum {
+	public static void main(String[]a) {
+		
+		String first ="011011";
+		String second ="1010111";
+		
+		int num1 = Integer.parseInt(first, 2);
+        // converting binary string into integer(decimal
+        // number)
+ 
+        int num2 = Integer.parseInt(second, 2);
+        // converting binary string into integer(decimal
+        // number)
+ 
+        int sum = num1 + num2;
+        // Adding those two decimal numbers and storing in
+        // sum
+ 
+        String result = Integer.toBinaryString(sum);
+	}
+}

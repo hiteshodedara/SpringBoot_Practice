@@ -1,0 +1,16 @@
+package Paracticeprogs;
+
+public class rectangaleareaandperameter {
+	public static void main(String []a) {
+		double width=5.5;
+		double height=8.5;
+		
+		double area=width*height;
+		double perameter=2*(width+height);
+		
+		System.out.println("Area of Rectangle is = "+area);
+		System.out.println("Perameter of Rectangle is = "+perameter);
+		
+	}
+
+}

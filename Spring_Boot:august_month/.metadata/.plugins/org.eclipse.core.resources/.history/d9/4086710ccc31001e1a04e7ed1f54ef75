@@ -1,0 +1,13 @@
+package prject1;
+
+import javax.swing.JFrame;
+
+public class firstswing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame frame =new JFrame();
+
+	}
+
+}

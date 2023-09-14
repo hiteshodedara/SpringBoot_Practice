@@ -1,0 +1,20 @@
+package Paracticeprogs;
+
+import java.util.Scanner;
+
+public class binarytodecimalnumber {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		
+		System.out.println("Enter binary values = ");
+		int binary=scan.nextInt();
+		
+		System.out.println("Decimal Number is = "+Integer.toString(binary));
+		
+		
+		scan.close();
+
+	}
+
+}

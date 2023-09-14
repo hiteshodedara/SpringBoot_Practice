@@ -1,0 +1,20 @@
+package Paracticeprogs;
+
+
+public class expressionout {
+	public static void main(String []e) {
+		
+//		int expre=((25.5*3.5-3.5*3.5)/(40.5-4.5));
+		
+		float firstexpre=(25.5f*3.5f-3.5f*3.5f);
+		float secondexpre=(40.5f-4.5f);
+		
+		float ans=firstexpre/secondexpre;
+		
+		System.out.println("Answer= "+ans);
+		
+		
+		
+		
+	}
+}
